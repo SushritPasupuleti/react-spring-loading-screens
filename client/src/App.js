@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {
+  useTransition,
+  animated,
+} from 'react-spring';
+import './css/main.css';
 
 function App() {
   return (
